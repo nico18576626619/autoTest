@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [易酷项目测试]" parallel="tests">
+  <parameter name="config" value="config.properties"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="yukuDemo(failed)" parallel="tests">
+    <classes>
+      <class name="com.toprank.autoTest.testCase.HelloAppium2">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.toprank.autoTest.testCase.HelloAppium2 -->
+    </classes>
+  </test> <!-- yukuDemo(failed) -->
+</suite> <!-- Failed suite [易酷项目测试] -->

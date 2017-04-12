@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="易酷项目测试" duration-ms="68742" started-at="2017-04-11T08:18:12Z" finished-at="2017-04-11T08:19:20Z">
+    <groups>
+    </groups>
+    <test name="yukuDemo" duration-ms="68742" started-at="2017-04-11T08:18:12Z" finished-at="2017-04-11T08:19:20Z">
+      <class name="com.toprank.autoTest.testCase.Init">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.toprank.autoTest.testCase.Init@48503868]" name="setUp" is-config="true" duration-ms="19900" started-at="2017-04-11T16:18:12Z" finished-at="2017-04-11T16:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.toprank.autoTest.testCase.Init -->
+      <class name="com.toprank.autoTest.testCase.HelloAppium2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.toprank.autoTest.testCase.HelloAppium2@6895a785]" name="setUp" is-config="true" duration-ms="0" started-at="2017-04-11T16:18:31Z" finished-at="2017-04-11T16:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runCase()[pri:0, instance:com.toprank.autoTest.testCase.HelloAppium2@6895a785]" name="runCase" duration-ms="48816" started-at="2017-04-11T16:18:32Z" finished-at="2017-04-11T16:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.toprank.autoTest.testCase.HelloAppium2@6895a785]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-04-11T16:19:20Z" finished-at="2017-04-11T16:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toprank.autoTest.testCase.HelloAppium2 -->
+    </test> <!-- yukuDemo -->
+  </suite> <!-- 易酷项目测试 -->
+</testng-results>
